@@ -2,6 +2,7 @@
   --main-font: "Roboto", sans-serif;
   --second-font: "Rufina", serif;
   --third-font: "Playfair Display", serif;
+  --accent-color: #ff817e;
 }
 
 h1,
@@ -15,7 +16,7 @@ p {
 }
 
 a {
-  text-decoration: 0;
+  text-decoration: none;
 }
 
 ul {
@@ -76,9 +77,12 @@ header .container {
   font-family: var(--main-font);
   font-size: 14px;
   text-transform: uppercase;
-  color: #263a41;
 }
 
 .navigation-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.navigation-link {
+  color: #263a41;
 }
