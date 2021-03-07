@@ -3,3 +3,35 @@
   --second-font: "Rufina", serif;
   --third-font: "Playfair Display", serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+address {
+  font-style: normal;
+}
