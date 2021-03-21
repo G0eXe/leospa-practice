@@ -32,7 +32,15 @@ img {
   display: block;
 }
 
-address {
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
   font-style: normal;
 }
 
