@@ -3,6 +3,8 @@
   --second-font: "Rufina", serif;
   --third-font: "Playfair Display", serif;
   --accent-color: #ff817e;
+  --title-color: #1e2528;
+  --text-color: #828282;
 }
 
 h1,
@@ -15,7 +17,8 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
@@ -38,6 +41,15 @@ img {
 
 .address {
   font-style: normal;
+}
+
+.section {
+  align-items: center;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 
 /* == HEADER == */
